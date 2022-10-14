@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color:hsl(30, 38%, 92%);
+}
+.card{
+    border-radius: 15px;
+    display: flex;
+    width: 50%;
+    height: 75vh;
+    background-color: white;
+    margin: 70px auto;
+}
+.image{
+    background-image: url(image-product-desktop.jpg);
+    border-radius: 15px 0px 0px 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 15px 15px 0px;
+    padding-top: 25px;
+    width: 50%;
+    height: 100%;
+}
+.addtocard{
+    color: white;
+    margin: 15px auto;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    width: 70%;
+    height: 50px;
+    display: flex;
+}
+.addtocard img{
+    margin-left: 60px;
+    margin-top: 14px;
+    width:7%;
+    height: 20px;
+}
+.addtocard p{
+    margin-left: 10px;
+    margin-top: 14px;
+}
+
+.pricing{
+    display: flex;
+}
+.pricing p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.pricing h1{
+    /* font-family: Montserrat,serif; */
+}
+.m1{
+    width: 100%;
+    padding: 9px 30px;
+}
+.data h1{
+font-weight: bold;
+color: hsl(212, 21%, 14%);
+}
+.data p{
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+}
+.data h3{
+    font-family:'Poppins', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
